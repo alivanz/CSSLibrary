@@ -1,0 +1,24 @@
+/* HTML 5 */
+header, section, footer, aside, nav, main, article, figure {
+	display: block; 
+}
+
+* {
+	margin : 0;
+	vertical-align : top;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	font-size : inherit;
+}
+
+html,body {
+	height : 100%;
+	font-size : 1.5vw;
+	font-family : helvetica;
+}
+
+p {
+	text-indent : 2em;
+	margin-bottom : 0.5em;
+}
