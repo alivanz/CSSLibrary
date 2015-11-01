@@ -1,0 +1,7 @@
+[button]{
+  display : inline-block;
+}
+  [button][medium]{
+    width : 4em;
+    height : 3em;
+  }
