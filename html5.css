@@ -14,11 +14,33 @@ header, section, footer, aside, nav, main, article, figure {
 
 html,body {
 	height : 100%;
-	font-size : 1.5vw;
 	font-family : helvetica;
 }
-
 p {
 	text-indent : 2em;
 	margin-bottom : 0.5em;
+}
+@media (min-width : 1024px){
+	body {
+		color : red;
+		font-size : 1.5vw;
+	}
+}
+@media (min-width : 600px) and (max-width : 1023px){
+	body {
+		color : blue;
+		font-size : 2.25vw;
+	}
+}
+@media (min-width : 400px) and (max-width : 599px){
+	body {
+		color : green;
+		font-size : 3vw;
+	}
+}
+@media (max-width : 399px){
+	body {
+		color : red;
+		font-size : 4vw;
+	}
 }
